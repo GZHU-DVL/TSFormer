@@ -45,9 +45,9 @@ Scale the image size to 256 x 256.
 Irregular masks are obtained from [Irregular Masks](https://nv-adlr.github.io/publication/partialconv-inpainting) and classified based on their hole sizes relative to the entire image with an increment of 10%.
 
 ## Training
-Since our model runs on two 24GB GPUs, we support distributed training. You can train model in distributed settings.
+Since our model runs on four 24GB GPUs, we support distributed training. You can train model in distributed settings.
 ```
-python -m torch.distributed.launch --nproc_per_node=2 train.py \
+python -m torch.distributed.launch --nproc_per_node=4 train.py \
   --image_root [path to image directory] \
   --mask_root [path mask directory]
 ```
