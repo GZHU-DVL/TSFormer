@@ -65,7 +65,10 @@ python test.py \
   --number_eval [number of images to test]
 ```
 
+Pre-trained models can be obtained from [Google Cloud Disk](https://drive.google.com/drive/folders/1RTNRF31EasqqphUNbgWYz4_Q7YjGlXqa?usp=sharing)
+
 ## Evaluation
+
 The diversity can be evaluated by:
 ```
 python scripts/metrics/cal_psnr.py  --gt_dir [path to groundtruth directory] --result_dir [path to output directory]
