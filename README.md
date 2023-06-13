@@ -65,7 +65,7 @@ python test.py \
   --number_eval [number of images to test]
 ```
 
-Pre-trained models can be obtained from [Google Cloud Disk](https://drive.google.com/drive/folders/1RTNRF31EasqqphUNbgWYz4_Q7YjGlXqa?usp=sharing)
+Pre-trained models can be obtained from [Google Cloud Disk](https://drive.google.com/drive/folders/1RTNRF31EasqqphUNbgWYz4_Q7YjGlXqa?usp=sharing).
 
 ## Evaluation
 
