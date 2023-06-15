@@ -17,7 +17,7 @@ from options.train_options import TrainOptions
 from datasets.dataset import create_image_dataset
 from utils.distributed import synchronize
 from utils.ddp import data_sampler
-from trainer_full import train
+from trainer import train
 from models.discriminator import base_function
 from utils.seedUtil import set_seed
 
