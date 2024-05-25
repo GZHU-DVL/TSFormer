@@ -1,6 +1,6 @@
 # TSFormer: Tracking Structure Transformer for Image Inpainting
 
-Jiayu Lin, Yuan-Gen Wang, Weijia Wang, Weixuan Tang, Jin Li, and Wensheng Zhang
+Jiayu Lin and Yuan-Gen Wang
 
 ## Preparation
 This repository is built in PyTorch 1.8.1 and tested on environment (Python3.7, CUDA11.1, nvcc11.1).
