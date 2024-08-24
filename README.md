@@ -79,6 +79,7 @@ Otherwise, you can also change the configuration file in the scripts/metrics dir
 ## Multi-Scale Image Inpainting
 
 If you wish to restore images of varying scales, you can modify the image size through the transform.py.
+
 1.Modify transform.py
 ```
 cd /datasets/transform.py
