@@ -1,6 +1,6 @@
 # TSFormer: Tracking Structure Transformer for Image Inpainting
 
-Jiayu Lin, Yuan-Gen Wang, Weijia Wang, Weixuan Tang, Jin Li, and Wensheng Zhang
+Jiayu Lin, Yuan-Gen Wang
 
 ## Preparation
 This repository is built in PyTorch 1.8.1 and tested on environment (Python3.7, CUDA11.1, nvcc11.1).
@@ -75,6 +75,22 @@ python scripts/metrics/cal_psnr.py  --gt_dir [path to groundtruth directory] --r
 python scripts/metrics/cal_lpips.py  --path1 [path to groundtruth directory] --path2 [path to output directory] --device cuda:0
 ```
 Otherwise, you can also change the configuration file in the scripts/metrics directory.
+
+## Multi-Scale Image Inpainting
+
+1.Modify transform.py
+```
+cd /datasets/transform.py
+```
+2.run test_splice.py
+```
+python test_splice.py \
+  --pre_trained [path to checkpoints] \
+  --image_root [path to image directory] \
+  --mask_root [path to mask directory] \
+  --result_root [path to output directory] \
+  --number_eval [number of images to test]
+```
 
 ## License
 
