@@ -76,6 +76,22 @@ python scripts/metrics/cal_lpips.py  --path1 [path to groundtruth directory] --p
 ```
 Otherwise, you can also change the configuration file in the scripts/metrics directory.
 
+## Multi-Scale Image Inpainting
+
+1.Modify transform.py
+```
+cd /datasets/transform.py
+```
+2.run test_splice.py
+```
+python test_splice.py \
+  --pre_trained [path to checkpoints] \
+  --image_root [path to image directory] \
+  --mask_root [path to mask directory] \
+  --result_root [path to output directory] \
+  --number_eval [number of images to test]
+```
+
 ## License
 
 This source code is made available for research purpose only.
