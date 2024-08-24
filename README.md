@@ -85,7 +85,7 @@ If you wish to restore images of varying scales, you can modify the image size t
 cd /datasets/transform.py
 ```
 
-2.run test_splice.py
+2.Run test_splice.py
 ```
 python test_splice.py \
   --pre_trained [path to checkpoints] \
