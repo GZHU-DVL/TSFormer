@@ -71,7 +71,7 @@ Pre-trained models can be obtained from [Google Cloud Disk](https://drive.google
 
 The metric testing code we are using can be found at https://github.com/liuqk3/PUT, and it is located in the scripts/metrics folder.
 
-The diversity can be evaluated by:
+1.The diversity can be evaluated by:
 ```
 python scripts/metrics/cal_psnr.py  --gt_dir [path to groundtruth directory] --result_dir [path to output directory]
 python scripts/metrics/cal_lpips.py  --path1 [path to groundtruth directory] --path2 [path to output directory] --device cuda:0
